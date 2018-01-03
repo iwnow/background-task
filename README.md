@@ -5,7 +5,7 @@
  ITaskFunctionArg.data - данные, передаваемые через ф-ю Run(data?:any), которая запускает задание
  
  Пример:
- ```
+ ```javascript
  const task = new BackgroundTask((arg) => {
         const a = arg.data;
         arg.completed(a*1000);
