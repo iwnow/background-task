@@ -7,7 +7,7 @@
  * 
  * Пример:
  * 
- * const task = new tasks.BackgroundTask((arg) => {
+ * const task = new BackgroundTask((arg) => {
         const a = arg.data;
         arg.completed(a*1000);
     });
